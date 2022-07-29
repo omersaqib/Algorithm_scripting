@@ -1,0 +1,13 @@
+//Confirm the ending
+function confirmEnding(str, target) {
+let strConfirm=str.slice(str.length-target.length);
+if(strConfirm===target)
+{
+  return true
+} 
+else{
+  return false;
+}
+}
+
+confirmEnding("Bastian", "n");

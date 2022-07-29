@@ -1,0 +1,21 @@
+//Reverse a String
+
+function reverseString(str) {
+  
+for(let i=str.length-1;i>=0;i--)
+{let k=0;
+  if(str[i]="")
+  {
+    str[i]=str[i];
+  }
+else{
+  str[k]=str[i];
+  str[i]=str[k];
+}
+k++;
+}
+  return str;
+
+}
+
+reverseString("hello");
